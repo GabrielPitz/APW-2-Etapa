@@ -1,0 +1,27 @@
+img {
+    width: 100%;
+}
+
+div.cancoes img:hover {
+    transition: 0.4s;
+    transform: scale(1.1);
+}
+
+.form-control:focus {
+    border-color: #ff5722; 
+    box-shadow: 0 0 0 0.2rem rgba(255, 87, 34, 0.25); 
+}
+
+#cnpj {
+    display: none;
+ }
+
+ #cartao {
+    display: none;
+}
+
+p#msg {
+    display: none;
+    color: #dd3502;
+    font-weight: bold;
+}
